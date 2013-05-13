@@ -20,3 +20,23 @@ a:hover {
     width: 98%;
     margin-top: 30px;
 }
+
+#play-again{
+    background-image:url('../img/button.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    padding-top: 30px;
+    margin-top: 35px;
+    cursor: pointer;
+    text-align:center;
+    font-weight: bold;
+    -webkit-transition: color .25s linear;
+     -moz-transition: color .25s linear;
+       -o-transition: color .25s linear;
+          transition: color .25s linear;
+}
+#play-again:hover{
+    color:black;   
+}

@@ -1,10 +1,12 @@
 
 // GAME OBJECTS
-var creature =  function(){
+var creature =  function(level){
     this.x =  0;
     this.y =  0;
-    this.height =  RANDOM.RandomValue(1,4);
-    this.width=   RANDOM.RandomValue(1,4);
+    this.level = level;
+    
+    this.height =  RANDOM.RandomValue(9,11);
+    this.width=   RANDOM.RandomValue(9,11);
     this.eated =  0;
     this.strongs=  RANDOM.RandomValue(0,15);
     this.type= RANDOM.RandomValue(0,15);
